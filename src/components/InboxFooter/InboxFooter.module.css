@@ -1,0 +1,178 @@
+.container {
+  bottom: 10px;
+  padding: 0 32px;
+  /* height: 55px; */
+  background-color: white;
+  /* border: 1px solid; */
+  /* border-radius: 5px; */
+  /* padding: 5px 10px 10px 10px; */
+  border-color: #b4b4b4;
+  border: none !important;
+  margin-top:  0 !important;
+  padding: 5px 0 0 0 !important;
+  /* margin-top: 63px; */
+  /* box-shadow: 0px -3px 12px rgb(0 0 0 / 10%); */
+}
+.inputEmailEditor > div:nth-child(2) {
+  min-height: 150px !important;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+.inputEmailEditor > div:nth-child(2) > div p {
+  color: black !important;
+  font-size: 12px !important;
+}
+.inputEditor > div:nth-child(2) > div p {
+  color: black !important;
+  font-size: 12px !important;
+}
+.inputEditor > div:nth-child(1) {
+  display: none !important;
+}
+.inputEditor > div:nth-child(2) {
+  min-height: 100px !important;
+  padding-bottom: 30px !important;
+  border-radius: 0.375rem !important;
+  border-top: 1px solid #ccc !important;
+}
+.inputWidget {
+  position: absolute;
+  bottom : 0;
+  width: 98%;
+  margin: 10px;
+}
+.cardHeader {
+  padding: 0 !important;
+}
+.cardHeaderAvatar {
+  margin-right: 9px !important;
+}
+.avatarPrimary,
+.avatarSecondary {
+  height: 32px !important;
+  width: 32px !important;
+}
+.avatarSecondary {
+  margin-left: -22px !important;
+  z-index: 999;
+}
+.cardHeaderTitle {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: #323232 !important;
+}
+.cardHeaderSubheader {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  color: #3dbd3a !important;
+}
+/*  */
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+.addAttachmentIcon {
+  width: 26px;
+  height: 26px;
+  color: #fff !important;
+  background: #3dbd3a !important;
+}
+input.replyInput {
+  padding: 7px 17px;
+  /* margin-bottom: 10px; */
+  background: #ffffff;
+  border: none;
+  border-bottom: 1px solid #ccc !important;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  position: absolute;
+  top: 46px;
+  z-index: 1000;
+  left: 1px;
+  right: 1px;
+}
+input.replyInput::placeholder {
+  color: rgba(0,0,0,0.6);
+  font-style: italic;
+}
+/* 
+.inputWrapper input[type="text"]:focus,
+.inputWrapper input[type="checkbox"]:focus,
+.inputWrapper input[type="checkbox"]:focus + label,
+.inputWrapper input[type="radio"]:focus,
+.animated input[type="radio"]:focus + label {
+  box-shadow: 0 0 5px rgba(61, 189, 58, 1);
+  border: 1px solid rgba(61, 189, 58, 1);
+  transition: all 0.3s ease-in-out;
+} */
+.topic {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #323232;
+}
+.topicValue {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #3dbd3a;
+}
+.expandBtn {
+  height: 26px;
+  width: 26px;
+}
+
+.expandBtn svg {
+  color: #b4b4b4;
+}
+.option {
+  padding: 7px !important;
+  font-size: 15px !important;
+  width: 100px !important;
+}
+.MuiMenu-list {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.speedDial {
+  position: absolute;
+  bottom: 2px;
+  left: -10px;
+  z-index: 100000000000;
+}
+
+.speedDial button {
+  width: 35px !important;
+  height: 35px !important;
+  min-height: 35px !important;
+  min-width: 35px !important;
+}
+
+.speedDial>div>button, .speedDial>div>button:hover {
+  width: 30px !important;
+  height: 30px !important;
+  min-height: 30px !important;
+  min-width: 30px !important;
+  background-color: #3dbd3a !important;
+}
+
+.speedDial button svg {
+  width: 20px !important;
+}
+
+.emailFooter {
+
+}
+.emoji aside  {
+  position: absolute !important;
+  bottom: 50px !important;
+  left: 57px !important;
+  z-index: 100000;
+}

@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ae46f14.css",
+    "main.js": "/static/js/main.acebe083.js",
+    "static/js/787.c1ee225b.chunk.js": "/static/js/787.c1ee225b.chunk.js",
+    "static/media/user-male-1.jpg": "/static/media/user-male-1.21beb1dda1b5ca293c3b.jpg",
+    "static/media/user-female-1.jpg": "/static/media/user-female-1.990bf8344d8845fea242.jpg",
+    "static/media/bg-pricing.jpg": "/static/media/bg-pricing.90e3b6f2b068b6bc4ec0.jpg",
+    "static/media/1.jpg": "/static/media/1.d82517621b9a7aa77e4a.jpg",
+    "static/media/bg-sign-in-cover.jpeg": "/static/media/bg-sign-in-cover.e5dabb486682cd2b2bf1.jpeg",
+    "static/media/visa.png": "/static/media/visa.71c0d5e9e2aaee42e4c3.png",
+    "static/media/product.jpg": "/static/media/product.a2ce4019d252ba162793.jpg",
+    "static/media/logo-facebook.png": "/static/media/logo-facebook.98f0308f316317616b7e.png",
+    "static/media/logo-email.png": "/static/media/logo-email.a2f2146f929409405da0.png",
+    "static/media/logo-pinterest.svg": "/static/media/logo-pinterest.844709031a3c1266979e933c371e043a.svg",
+    "static/media/logo-vodafone.svg": "/static/media/logo-vodafone.b3e8486c0cac220bc3a31c9eab049b21.svg",
+    "static/media/logo-spotify.svg": "/static/media/logo-spotify.e83cf56c9d99a1fdf59e8deb58bbe470.svg",
+    "static/media/logo-coinbase.svg": "/static/media/logo-coinbase.87e91c7f318f2d82f46e78469976128b.svg",
+    "static/media/logo-nasa.svg": "/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
+    "static/media/logo-slack.svg": "/static/media/logo-slack.7c47c5aa474b5c4fb39fcf05ffb8e4e7.svg",
+    "static/media/logo-netflix.svg": "/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
+    "static/media/logo-atlassian.svg": "/static/media/logo-atlassian.f2b0e8570a4b4ce768854ff3dad1a6e1.svg",
+    "static/media/logo-asana.svg": "/static/media/logo-asana.d758f410d82760a61d1eabcb03409de6.svg",
+    "index.html": "/index.html",
+    "static/media/chat.svg": "/static/media/chat.d0fcab480f0b1eb3c792195a29233e11.svg",
+    "main.3ae46f14.css.map": "/static/css/main.3ae46f14.css.map",
+    "main.acebe083.js.map": "/static/js/main.acebe083.js.map",
+    "787.c1ee225b.chunk.js.map": "/static/js/787.c1ee225b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ae46f14.css",
+    "static/js/main.acebe083.js"
+  ]
+}

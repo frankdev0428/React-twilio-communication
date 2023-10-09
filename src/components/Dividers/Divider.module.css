@@ -1,0 +1,15 @@
+.convoDivider {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #323232;
+  margin-top: 18px !important;
+  margin-bottom: 25px !important;
+}
+
+.convoDivider::before,
+.convoDivider::after {
+  border-top: thin solid #b4b4b4 !important;
+  top: 0 !important;
+}

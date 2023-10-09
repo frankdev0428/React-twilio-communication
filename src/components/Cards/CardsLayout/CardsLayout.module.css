@@ -1,0 +1,166 @@
+/* Card */
+.card {
+  background: #ffffff;
+  box-shadow: 0px 3px 13px rgb(0 0 0 / 15%);
+  border-radius: 8px;
+  padding: 25px 32px;
+  margin-bottom: 16px;
+}
+/* SidebarCard */
+.sidebarCard {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 7px rgb(0 0 0 / 10%);
+  padding: 16px;
+  margin-bottom: 16px;
+  /* color: #adafb3 */
+}
+/* MessageItemCard */
+.messageItemWrapper {
+  display: block;
+  margin: 0 30px;
+}
+.sentMessageWrapper {
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  visibility: hidden;
+}
+.receivedMessageWrapper {
+  justify-content: flex-start !important;
+  margin-bottom: 16px;
+  visibility: hidden;
+}
+
+.messageItemCard {
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 15%);
+  border-radius: 20px;
+  padding: 5px 16px;
+  max-width: 465px;
+  /* display: table ; */
+}
+.messageTimestamp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: rgba(50, 50, 50, 0.6);
+  margin-left: 40px;
+}
+
+.messageTimestamp svg {
+  margin-right: 8px;
+}
+.messageItemCardWrapper {
+  display: flex;
+}
+.userAvatar {
+  width: 32px !important;
+  height: 32px !important;
+  border: 1px solid #d9d9d9;
+  margin-left: 8px;
+}
+.message {
+  word-break: break-word;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: #323232;
+
+}
+.messageContent {
+  display: flex;
+  justify-content: space-between;
+}
+.messageContent svg {
+  cursor: pointer;
+  color: #b4b4b4;
+  margin-left: 8px;
+  width: 0.8em !important;
+  height: 0.8em !important;
+}
+.sentWrapper {
+  flex-direction: row-reverse;
+  margin-bottom: 3px;
+}
+.receivedWrapper {
+  margin-bottom: 3px;
+}
+.receivedWrapper .messageItemCard {
+  /* border-top-right-radius: 0px; */
+  /* border-top-left-radius: 0px; */
+  background-color: #f4f6fa;
+  border-color: #f4f6fa;
+}
+
+.sentWrapper .messageTimestamp {
+  justify-content: flex-end !important;
+}
+.sentWrapper .userAvatar {
+  margin-left: 8px;
+  margin-right: 0;
+}
+.receivedWrapper .userAvatar {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+.sentWrapper .messageItemCard {
+  /* border-top-right-radius: 0px; */
+  background-color: #257afa !important;
+  border-color: #257afa !important;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 35%);
+}
+.sentWrapper .messageItemCard .messageContent div {
+  color: white !important;
+}
+.timeShow {
+  visibility: visible !important;
+}
+.sentWrapper .messageContent svg {
+  color: white !important;
+}
+.voiceItemCard{
+  max-width: 500px !important;
+  width: 450px;
+  padding: 10px 40px 10px 10px;
+  position: relative;
+}
+.voiceItemCard wave {
+  height: 50px !important;
+  /* background-color: #257afa !important; */
+}
+.voiceItemCard button {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+.mmsImg {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  
+  /* height: 100%; */
+  
+}
+.mmsImgActive {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1000px;
+  z-index: 15000;
+}
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 99vw;
+  background-color: black !important;
+  opacity: 0.7 !important;
+  z-index: 5000;
+}

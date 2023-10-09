@@ -1,0 +1,106 @@
+
+.miniInbox {
+  height: calc(100vh - 120px);
+  overflow: auto !important;
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.miniInbox::-webkit-scrollbar {
+  width: 5px;
+}
+.miniInbox::-webkit-scrollbar-thumb {
+  background-color: #32323299;
+  border-radius: 50px;
+}
+.miniInbox::-webkit-scrollbar-track {
+  background-color: white;
+}
+input.searchInput {
+  padding: 7px 16px;
+  background: #ffffff;
+  border: 1px solid #F6F6F5;
+  background-color: #F6F6F5;
+  border-radius: 20px;
+  font-family: Poppins;
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* color: rgba(50, 50, 50, 0.4); */
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  width: 300px !important;
+}
+.inputWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input.searchInput::placeholder {
+  color: rgba(50, 50, 50, 0.4);
+}
+
+.inputWrapper input[type="text"]:focus,
+.inputWrapper input[type="checkbox"]:focus,
+.inputWrapper input[type="checkbox"]:focus + label,
+.inputWrapper input[type="radio"]:focus,
+.animated input[type="radio"]:focus + label {
+  box-shadow: 0 0 5px rgb(79, 80, 79);
+  border: 1px solid rgb(144, 148, 144);
+  transition: all 0.3s ease-in-out;
+  /* 3DBD3A
+  rgb(61,189,58)
+   */
+}
+.miniAvatar {
+  margin-right: 15px;
+}
+.miniInboxCustomer {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 72px;
+  max-height: 72px;
+  cursor: pointer;
+  border-bottom: solid 1px;
+  border-color:  #f4f6fa !important;
+
+}
+.miniInboxCustomerLatest {
+  font-size: 12px;
+  color: #b1b6b9;
+}
+.miniInboxCustomer:hover {
+  background-color: #f4f6fa;
+  border-radius: 10px;
+}
+.miniInboxCustomerHistory {
+  width: 1px;
+  flex-grow: 1;
+}
+.miniInboxCustomerHistory p {
+  word-wrap: break-word !important;
+}
+.miniInboxCustomerActive {
+  background-color: #f4f6fa !important;
+  border-radius: 10px;
+}
+.miniTab {
+  font-size: 12px !important;
+}
+.miniTabs {
+  flex-grow: 1 !important;
+}
+.secondHeader {
+  border-bottom: solid 1px #e6e4e4;
+  padding-bottom: 10px;
+}
+.priorityBadge {
+  padding: 0 !important;
+  margin: 10px 0 0 10px !important;
+  float: right;
+}
+.miniInboxContent {
+  width: 100% !important;
+}

@@ -1,0 +1,180 @@
+.headerWrapper {
+  position: relative;
+  height: 70px;
+  background: #ffffff;
+  /* background: #2F3136; */
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 15%);
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.toggleBtn svg {
+  color: #a7a7a7;
+  height: 20px;
+}
+.userAvatar {
+  cursor: pointer;
+}
+.rootBtn {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: #a7a7a7 !important;
+}
+.startIcon {
+  margin-right: 0px !important;
+
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.menuItem {
+  font-weight: 300 !important;
+  font-size: 13px !important;
+  color: black !important;
+}
+.menuItem:hover {
+  /* color: #2881EB !important; */
+  color: #3dbd3a !important;
+}
+.declineBtn {
+  background-color: #F44335 !important;
+  color: white !important;
+  border-radius: 50% !important;
+}
+
+.callProcess {
+  width: 1000px;
+  max-width: 1000px;
+}
+.callProcess p {
+  color: black !important;
+}
+.incomingCall {
+  position: absolute;
+  left: 50%;
+  top: -150px;
+  transform: translate(-50%, -50%);
+  /* width: 500px; */
+  width: 80%;
+  background-color: #21404E !important;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.6s;
+  z-index: 100000;
+  /* opacity: 0.5; */
+}
+.active {
+  top: 65% !important;
+}
+.incomingAvatar {
+  color: white;
+  margin-left: 15px;
+}
+.incomingSign {
+  color: white !important;
+}
+.incomingSign p, .incomingSign span {
+  color: white !important;
+}
+.incomingAvatar  p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: white !important;
+}
+.incomingAvatar span {
+  /* font-size: 12px; */
+}
+
+.callAnimation {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 100%;
+    animation: play 2s ease infinite;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden; 
+    background-color: #3dbd3a !important; 
+    color: white !important;
+}
+.imgCircle {
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+@keyframes play {
+
+    0% {
+        transform: scale(1);
+    }
+    15% {
+        box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
+    }
+    25% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    25% {
+        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0.2);
+    }
+
+}
+
+.leftMenu {
+  position: fixed !important;
+  height: calc(100vh - 30px);
+  width: 300px;
+  z-index: 10000;
+  background-color: white !important;
+  color: black;
+  top: 0 !important;
+  left: -400px;
+  border-radius: unset !important;
+  padding: 15px;
+  transition: all 0.3s !important
+}
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 99vw;
+  background-color: black !important;
+  opacity: 0.5 !important;
+  z-index: 5000;
+}
+.inboxIcon, .dashboardIcon, .customerIcon, .accountIcon, .pricingIcon {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.inboxIcon {
+  background-color: #56b3f5;
+}
+.dashboardIcon {
+  background-color: #ed9f20;
+}
+.customerIcon {
+  background-color: #f06964;
+}
+.accountIcon {
+  background-color: #6dc534;
+}
+.pricingIcon {
+  background-color: #b580e2;
+}
+.menuActive {
+  left: 0 !important;
+}

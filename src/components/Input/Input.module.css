@@ -1,0 +1,61 @@
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  background-color: #fff;
+  background-image: none;
+  background: #ffffff;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.infoIcon svg {
+  margin-right: 10px;
+}
+.showHidePassIcon svg {
+  margin-left: 10px;
+}
+.showHidePassIcon {
+  cursor: pointer;
+}
+.infoIcon,
+.showHidePassIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infoIcon svg {
+  height: 16px;
+  width: 16px;
+  color: #c2c8d1;
+}
+.showHidePassIcon svg {
+  height: 18px;
+  width: 18px;
+  color: #c2c8d1;
+}
+
+.input {
+  outline: none;
+  border: 0;
+  background: transparent;
+  width: 100%;
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+input.input::placeholder {
+  color: rgba(50, 50, 50, 0.4);
+}
+
+.inputWrapper:hover {
+  border-color: #40a9ff;
+  border-right-width: 1px;
+}
+.inputWrapper:focus-within {
+  border-color: #40a9ff;
+  border-right-width: 1px;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+  outline: 0;
+  transition: all 0.3s ease-in-out;
+}
